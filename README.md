@@ -69,5 +69,7 @@ cards:
 ```
 
 #### Matériel compatible
-- Waveshare RS485 Ethernet
+- Waveshare Ethernet (poe) to RS232/485/422.
+- VEICHI AC10
 - VEICHI AC70
+- VEICHI AC300
