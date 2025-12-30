@@ -68,7 +68,7 @@ cards:
         name: Sens
 ```
 
-### Ressources
+## Ressources :
 
 **Documentation** :
 - [VEICHI AC70](https://www.veichi.com/d/file/download/low-voltage-drives/ac10-series-frequency-inverter-manual-v1.pdf)
