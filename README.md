@@ -36,10 +36,10 @@
 ## Lovelace - carte example :
 
 Configuration :
-- Aller dans "Modifier tableau de bord"
-- Ajouter au tableau de bord et selectionner "Manuel"
-- Copier un des codes ci-dessous 
-- Copier manuel le code YAML
+1. Aller dans "Modifier tableau de bord"
+2. Ajouter au tableau de bord et selectionner "Manuel"
+3. Copier un des codes ci-dessous 
+4. Copier manuel le code YAML
 
 
 #### Carte simple ( Entities )
