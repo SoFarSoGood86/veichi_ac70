@@ -70,8 +70,8 @@ cards:
 
 ### Ressources
 
-- **Documentation** : [VEICHI AC70]([https://hydroqc.ca](https://www.veichi.com/d/file/p/20180122/7824c2072d7575f857710d8a31bf2e25.pdf))
-- **Problèmes** : [GitHub Issues](https://github.com/hydroqc/hydroqc-ha/issues)
+- **Documentation** : [VEICHI AC10]([https://hydroqc.ca](https://www.veichi.com/d/file/p/20180122/7824c2072d7575f857710d8a31bf2e25.pdf))
+- **Documentation** : [VEICHI AC70](https://www.veichi.com/d/file/p/20180122/7824c2072d7575f857710d8a31bf2e25.pdf)
 - **Code source** : [Dépôt GitHub](https://github.com/hydroqc/hydroqc-ha)
 - **Changelog** : [CHANGELOG.md](CHANGELOG.md)
 -
