@@ -16,6 +16,20 @@ Intégration HACS pour piloter un variateur VEICHI AC70 via Waveshare ETH RS485 
 2. Installer l'intégration
 3. Configurer l'adresse IP (192.168.1.254)
 
-## Matériel compatible
+## Lovelace card example :
+
+```yaml
+type: entities
+title: VEICHI AC70
+entities:
+  - switch.ac70_marche
+  - switch.ac70_sens_rotation
+  - number.ac70_frequence
+  - sensor.ac70_frequence_reelle
+  - sensor.ac70_courant_moteur
+  - sensor.ac70_puissance_moteur
+  - sensor.ac70_temperature_variateur
+```
+#### Matériel compatible
 - Waveshare RS485 Ethernet
 - VEICHI AC70
