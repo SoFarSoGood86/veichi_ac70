@@ -14,7 +14,9 @@ Intégration HACS pour piloter un variateur VEICHI AC70 via Waveshare ETH Série
 ## Installation
 1. Ouvrir Home Assistant → HACS → Integrations → Custom repositories
 2. Ajouter l’URL du dépôt dans HACS :
-   `https://github.com/SoFarSoGood86/veichi_ac70_hacs.git`
+   ```
+   https://github.com/SoFarSoGood86/veichi_ac70
+   ```
 3. Installer l'intégration, choisir **Category: Integration**
 4. Configurer l'adresse IP (192.168.1.254)
 5. Installer l’intégration et redémarrer HA
