@@ -18,6 +18,7 @@ Intégration HACS pour piloter un variateur VEICHI AC70 via Waveshare ETH RS485 
 
 ## Lovelace card example :
 
+#### Carte simple ( Entities )
 ```yaml
 type: entities
 title: VEICHI AC70
@@ -30,7 +31,7 @@ entities:
   - sensor.ac70_puissance_moteur
   - sensor.ac70_temperature_variateur
 ```
-
+#### Carte avancée ( Gauge + Buttons )
 ```yaml
 type: vertical-stack
 cards:
