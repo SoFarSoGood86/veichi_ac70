@@ -1,4 +1,4 @@
-<img width="1197" height="417" alt="Capture d’écran 2025-12-30 à 20 18 12" src="https://github.com/user-attachments/assets/c023d2b3-7cab-45aa-b150-a99d5813501b" />
+<img width="1197" height="417" alt="VEICHI Header" src="https://github.com/user-attachments/assets/9b6fccda-1099-43cb-bcc5-1732d246eb9e" />
 
 # VEICHI AC70 – Home Assistant
 Intégration HACS pour piloter un variateur VEICHI AC70 via RS485 Modbus RTU over TCP.
