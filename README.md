@@ -1,7 +1,8 @@
 <img width="1197" height="268" alt="VEICHI Header" src="https://github.com/user-attachments/assets/8c27f4cc-082f-4173-a9cd-b0d24bda7c32" />
 
 # VEICHI AC10-70-300
-Intégration HACS pour piloter un variateur VEICHI model AC70, AC70 et AC300 via Waveshare ETH Série RS485 Modbus RTU/TCP.
+Intégration HACS pour piloter un variateur VEICHI model AC70, AC70 et AC300.
+Contrôle via le node Waveshare ETH Série RS485 Modbus RTU/TCP.
 
 ## Fonctionnalités
 - Marche / Arrêt
