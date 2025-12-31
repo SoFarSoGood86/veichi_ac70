@@ -33,7 +33,7 @@
 
 - Valider et sauvegarder
 
-## Configuration "Configuration.yaml" :
+## Configuration yaml :
 
 ```yaml
 modbus:
