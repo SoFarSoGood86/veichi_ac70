@@ -16,7 +16,7 @@
 1. Ouvrir Home Assistant → HACS → Integrations → Custom repositories.
 2. Ajouter l’URL du dépôt dans HACS :
    ```
-   https://github.com/SoFarSoGood86/VEICHI_AC10-70-300.git
+   https://github.com/SoFarSoGood86/veichi_ac70_hacs.git
    ```
 3. Installer l'intégration, choisir **Category: Integration**.
 4. Configurer l'adresse IP (192.168.1.254).
