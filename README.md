@@ -33,7 +33,7 @@
 
 - Valider et sauvegarder
 
-## Configuration yaml :
+## VEICHI AC70 yaml configuration :
 
 ```yaml
 modbus:
