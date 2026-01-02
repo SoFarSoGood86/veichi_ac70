@@ -13,6 +13,7 @@
 - Diagnostics Home Assistant
 
 <img width="1197" height="73" alt="Baner" src="https://github.com/user-attachments/assets/0708d028-1b33-4c7b-8a33-3eec29e3a501" />
+
 ## Installation :
 1. Ouvrir Home Assistant → HACS → Integrations → Custom repositories.
 2. Ajouter l’URL du dépôt dans HACS :
@@ -35,6 +36,7 @@
 - Valider et sauvegarder
 
 <img width="1197" height="73" alt="Baner" src="https://github.com/user-attachments/assets/0708d028-1b33-4c7b-8a33-3eec29e3a501" />
+
 ## VEICHI AC10 yaml configuration :
 
 ```yaml
@@ -122,6 +124,7 @@ modbus:
 ```
 
 <img width="1197" height="73" alt="Baner" src="https://github.com/user-attachments/assets/0708d028-1b33-4c7b-8a33-3eec29e3a501" />
+
 ## Lovelace - carte example :
 
 #### Configuration HA :
@@ -143,6 +146,7 @@ entities:
   - sensor.ac70_puissance_moteur
   - sensor.ac70_temperature_variateur
 ```
+
 #### Carte avancée ( Gauge + Buttons )
 ```yaml
 type: vertical-stack
@@ -164,6 +168,7 @@ cards:
 ```
 
 <img width="1197" height="73" alt="Baner" src="https://github.com/user-attachments/assets/0708d028-1b33-4c7b-8a33-3eec29e3a501" />
+
 ## Matériel compatible
 - Waveshare Ethernet (poe) to RS232/485/422. [pdf](https://www.waveshare.com/wiki/RS232/485/422_TO_POE_ETH_(B))
 - VEICHI AC10 [pdf](https://www.veichi.com/d/file/download/low-voltage-drives/ac10-series-frequency-inverter-manual-v1.pdf)
@@ -171,6 +176,7 @@ cards:
 - VEICHI AC300 [pdf](https://www.veichi.com/d/file/download/low-voltage-drives/veichi-ac300-technical-manual-v1-0.pdf)
 
 <img width="1197" height="73" alt="Baner" src="https://github.com/user-attachments/assets/0708d028-1b33-4c7b-8a33-3eec29e3a501" />
+
 ## Avertissement
 
 Cette intégration n'est **pas approuvée, associée ou supportée par VEICHI**. 
