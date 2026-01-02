@@ -4,9 +4,9 @@
 - HACS integration to control a variable frequency drive (AFD) model VEICHI AC70, AC70 and AC300.
 - Modbus RTU/TCP control via Waveshare ETH Serial node RS232-RS485/422.
 
-## Features :
-- Star / Stop
-- Rotation sens
+## Fonctions :
+- Marche / Arrêt
+- Sense de Rotation
 - Réglage fréquence 0–50 Hz
 - Courant, puissance, température
 - Config UI
@@ -24,11 +24,11 @@
 4. Configurer l'adresse IP (192.168.1.254).
 5. Installer l’intégration et redémarrer HA.
 
-## Waveshare ETH to Serial RS232 / RS485-422 configuration :
+## Configuration node Waveshare ETH -> Serial RS232 / RS485-422 :
 
 - Renseigner les champs :
 
-   * **IP du boîtier Waveshare** : ex. `192.168.1.254` (ou autre selon configuration)
+   * **IP du boîtier Waveshare** : ex. `192.168.1.70` (ou autre selon configuration)
    * **Port TCP** : ex. `502` (ou autre selon configuration)
    * **Mode physique** : RS485
    * **Slave Modbus** : ex. `1`(ou autre selon configuration)
@@ -37,28 +37,28 @@
 
 <img width="1197" height="21" alt="Baner" src="https://github.com/user-attachments/assets/f3ae4b2b-d0ec-4efd-9821-147d31e2c54b" />
 
-## VEICHI AC10 yaml configuration :
+## Configuration VEICHI AC10 (yaml) :
 
 ```yaml
 modbus:
   - name: veichi_ac10
     type: tcp
-    host: 192.168.1.254
-    port: 502
+    host: 192.168.1.70    # Ou autre IP selon configuration
+    port: 502             # Ou autre Port selon configuration 
     delay: 1
     timeout: 5
 
     Coming soon
 ```
 
-## VEICHI AC70 yaml configuration :
+## Configuration VEICHI AC70 (yaml) :
 
 ```yaml
 modbus:
   - name: veichi_ac70
     type: tcp
-    host: 192.168.1.254
-    port: 502
+    host: 192.168.1.70    # Ou autre IP selon configuration
+    port: 502             # Ou autre Port selon configuration
     delay: 1
     timeout: 5
 
@@ -123,6 +123,19 @@ modbus:
         precision: 0
 ```
 
+## Configuration VEICHI AC300 (yaml) :
+
+```yaml
+modbus:
+  - name: veichi_ac300
+    type: tcp
+    host: 192.168.1.70    # Ou autre IP selon configuration
+    port: 502             # Ou autre Port selon configuration 
+    delay: 1
+    timeout: 5
+
+    Coming soon
+```
 <img width="1197" height="21" alt="Baner" src="https://github.com/user-attachments/assets/f3ae4b2b-d0ec-4efd-9821-147d31e2c54b" />
 
 ## Lovelace - carte example :
