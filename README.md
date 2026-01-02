@@ -33,6 +33,8 @@
 
 - Valider et sauvegarder
 
+<img width="1197" height="73" alt="Baner" src="https://github.com/user-attachments/assets/0708d028-1b33-4c7b-8a33-3eec29e3a501" />
+
 ## VEICHI AC10 yaml configuration :
 
 ```yaml
