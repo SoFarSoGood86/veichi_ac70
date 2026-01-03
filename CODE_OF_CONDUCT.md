@@ -1,11 +1,11 @@
 # Contributor Covenant Code of Conduct
 
-###STOP URGENCE :
+## STOP URGENCE :
 ```
 service: veichi_ac.emergency_stop
 ```
 
-###Vue OPÉRATEUR (commande) :
+## Vue OPÉRATEUR (commande) :
 ```
 type: entities
 title: Variateur VEICHI – Commande
@@ -15,7 +15,7 @@ entities:
   - switch.sens_rotation
 ```
 
-###Vue SUPERVISION :
+## Vue SUPERVISION :
 ```
 type: entities
 title: Supervision variateur
@@ -27,7 +27,7 @@ entities:
   - binary_sensor.defaut_variateur
 ```
 
-###Vue SÉCURITÉ :
+## Vue SÉCURITÉ :
 ```
 type: button
 name: STOP URGENCE
