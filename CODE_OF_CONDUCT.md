@@ -1,13 +1,13 @@
 # Contributor Covenant Code of Conduct
 
 ## STOP URGENCE :
-```
+```yaml
 service: veichi_ac.emergency_stop
 ```
 
 ## Vue OPÉRATEUR (commande) :
 images/operator_view.png
-```
+```yaml
 type: entities
 title: Variateur VEICHI – Commande
 entities:
@@ -18,7 +18,7 @@ entities:
 
 ## Vue SUPERVISION :
 images/supervision_view.png
-```
+```yaml
 type: entities
 title: Supervision variateur
 entities:
@@ -31,7 +31,7 @@ entities:
 
 ## Vue SÉCURITÉ :
 images/safety_view.png
-```
+```yaml
 type: button
 name: STOP URGENCE
 icon: mdi:alert-octagon
