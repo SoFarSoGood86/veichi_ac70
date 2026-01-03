@@ -6,6 +6,7 @@ service: veichi_ac.emergency_stop
 ```
 
 ## Vue OPÉRATEUR (commande) :
+images/operator_view.png
 ```
 type: entities
 title: Variateur VEICHI – Commande
@@ -16,6 +17,7 @@ entities:
 ```
 
 ## Vue SUPERVISION :
+images/supervision_view.png
 ```
 type: entities
 title: Supervision variateur
@@ -28,6 +30,7 @@ entities:
 ```
 
 ## Vue SÉCURITÉ :
+images/safety_view.png
 ```
 type: button
 name: STOP URGENCE
